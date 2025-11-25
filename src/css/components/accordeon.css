@@ -1,3 +1,13 @@
 /**
 * Accordeon
 */
+.accordeon {
+    /* fermé et ouvert */
+
+    display: block;
+}
+
+.accordeon[open] {
+    /* ouvert */
+    display: block;
+}
